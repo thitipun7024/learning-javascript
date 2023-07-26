@@ -87,14 +87,18 @@ for(var i = 1; i <= qrt; i ++){
     document.getElementById("price").innerHTML += "รายการสินค้าชินที่" + i + ":" + item_price + "บาท" + "<br>"
 } */
 
-let round = prompt("คุณจะเล่นทั้งหมดกี่รอบ ?")
-for(var i = 1; i < round ; i++){
+
+/* โปรเเกรมาสุ่มหัวก้อย*/
+/* let round = prompt("คุณจะเล่นทั้งหมดกี่รอบ ?")
+for(var i = 1; i <= round ; i++){
+    //console.log(i)
     var answer = prompt("หัว หริอ ก้อย")
     var random_answer = ""
     if(Math.floor(Math.random()*10) <= 4){
-        random_answer = "หัว"
+        console.log(random_answer)
+        random_answer = "a"
     }else{
-        random_answer = "ก้อย"
+        random_answer = "s"
     }
 
     if(answer == random_answer){
@@ -102,5 +106,8 @@ for(var i = 1; i < round ; i++){
     }else{
         document.getElementById("game-list").innerHTML += "รอบที่" + i + ":" + "false"+ "<br>"
     }
+} */
 
+while(prompt("พืมพ์  exit") != "exit"){
+    document.getElementById("result").innerHTML += "ไม่พิมพ์ exit" + "<br>"
 }
