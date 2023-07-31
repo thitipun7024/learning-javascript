@@ -111,3 +111,19 @@ for(var i = 1; i <= round ; i++){
 /* while(prompt("พืมพ์  exit") != "exit"){
     document.getElementById("result").innerHTML += "ไม่พิมพ์ exit" + "<br>"
 } */
+
+/* โปรเเกรม คำนวน flh เป็น celsius*/
+/* function tocelsius(){
+    let flh = prompt("flh :")
+    let value = (flh - 32) * 5 / 9
+    document.getElementById("value-flh").innerHTML = value.toFixed(1) + " " + "celsius"
+}
+tocelsius() */
+
+/* โปรเเกรม คำนวน celsius เป็น flh*/
+/* function toflh(){
+    let c = prompt("°C :")
+    let value = (c * 9/5) + 32
+    document.getElementById("value-flh").innerHTML = value.toFixed(1) + " " + "°F"
+}
+toflh() */
