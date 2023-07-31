@@ -107,7 +107,7 @@ for(var i = 1; i <= round ; i++){
         document.getElementById("game-list").innerHTML += "รอบที่" + i + ":" + "false"+ "<br>"
     }
 } */
-
-while(prompt("พืมพ์  exit") != "exit"){
+/* โปรเเกรม loop while */
+/* while(prompt("พืมพ์  exit") != "exit"){
     document.getElementById("result").innerHTML += "ไม่พิมพ์ exit" + "<br>"
-}
+} */
