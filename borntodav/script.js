@@ -127,3 +127,9 @@ tocelsius() */
     document.getElementById("value-flh").innerHTML = value.toFixed(1) + " " + "°F"
 }
 toflh() */
+
+function sh(userName, last){
+    return "hello " + userName
+}
+let ui = prompt("input name :")
+alert(sh(ui))
