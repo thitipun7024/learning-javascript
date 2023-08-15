@@ -128,8 +128,65 @@ tocelsius() */
 }
 toflh() */
 
-function sh(userName, last){
-    return "hello " + userName
+/* โปรเเกรม Function */
+/* function sh(userName, last){
+    return "hello " + userName + " " + last
 }
 let ui = prompt("input name :")
-alert(sh(ui))
+alert(sh(ui, "SAK")) */
+
+/* โปรเเกรม คำนวน flh เป็น celsius*/
+/* function tocelsius(flh){
+    let value = (flh - 32) * 5 / 9
+    return value.toFixed(1) + " " + "celsius"
+}
+function display(elementId, value){
+    document.getElementById(elementId).innerHTML = "<b>"+value+"</b>"
+} */
+/* โปรเเกรม คำนวน celsius เป็น flh*/
+/* function toflh(){
+    let value = (c * 9/5) + 32
+    return value.toFixed(1) + " " + "°F"
+}
+alert(tocelsius(150))
+display("tocelsius", tocelsius(150))
+alert(tocelsius(60))
+display("toflh", tocelsius(60)) */
+
+/* โปรเเกรม onload, onclick */
+/* function sayhello(){
+    alert('Hello3')
+}
+
+function sayhello4(){
+    alert('Hello4')
+} */
+
+/* โปรเเกรม คำนวน celsius เป็น flh*/
+/*  function tocelsius(){
+    let inputValue = document.getElementById("fa").value;
+    let value = (inputValue - 32) * 5 / 9
+    console.log(value);
+    //return value.toFixed(1) + " " + "celsius"
+    //console.log(value);
+    display("sca", value.toFixed(1) + " " + "celsius")
+} 
+
+function toflh(){
+    let inputValue2 = document.getElementById("ce").value;
+    let value = (inputValue2 * 9/5) + 32
+    console.log(value);
+    //return value.toFixed(1) + " " + "celsius"
+    //console.log(value);
+    display("sflh", value.toFixed(1) + " " + "fahrenheit")
+} 
+
+function display(elementId, value){
+    document.getElementById(elementId).innerHTML = "<b>"+value+"</b>"
+} */
+
+//display("sca", tocelsius())
+//console.log(display)
+
+
+
