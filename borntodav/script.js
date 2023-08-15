@@ -189,4 +189,17 @@ function display(elementId, value){
 //console.log(display)
 
 
+function bmi(){
+    //console.log(weight,height)
+    let weight = document.getElementById("weight").value;
+    let height = document.getElementById("height").value;
+    let floats = (height / 100).toFixed(2);
+    let sumbmi =  weight / (floats * floats);
+    display("value", sumbmi.toFixed(2))
+    //console.log(sumbmi)
 
+}
+
+function display(elementId, sumbmi){
+    document.getElementById(elementId).innerHTML = sumbmi
+}
