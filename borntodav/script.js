@@ -195,7 +195,21 @@ function bmi(){
     let height = document.getElementById("height").value;
     let floats = (height / 100).toFixed(2);
     let sumbmi =  weight / (floats * floats);
-    display("value", sumbmi.toFixed(2))
+    display("value", sumbmi.toFixed(2));
+    if(sumbmi < 18.5){
+        display("result","ผอมเกินไป");
+    }else if(sumbmi >= 18.6 && sumbmi <=24.9){
+        display("result","น้ำหนักปกติ");
+    }else if(sumbmi >= 25.0 && sumbmi <=29.9){
+        display("result","อ้วน");
+    }else{
+        display("result","อ้วนมาก");
+    }
+   /*  if((sumbmi < 18.5)){
+        display("result","ผอมเกินไป");
+    }else {if ((sumbmi >= 18.5 && sumbmi <= 24.9 )) {
+            display("result","น้ำหนักปกติ");
+        }}; */
     //console.log(sumbmi)
 
 }

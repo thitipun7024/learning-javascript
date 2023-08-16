@@ -1,6 +1,6 @@
 .card {
     width: 1000px;
-    height: 500px;
+    height: 600px;
     background: #07182E;
     position: relative;
     display: flex;
@@ -230,4 +230,10 @@
     ;
     inset: 5px;
     border-radius: 15px;
+  }
+
+  .div2{
+    color: #fff;
+    font-weight: 700;
+    font-size: larger;
   }
