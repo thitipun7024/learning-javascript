@@ -94,8 +94,9 @@ for(var item of foods){
     console.log(item);
 } */
 
+/* //loop index
 let foods: any = ["a", "b", "c"];
 
 for(let index in foods){
     console.log(foods[index]);
-}
+} */
