@@ -39,12 +39,25 @@ function hello(){
 }
 
 hello() */
-var workstatus;
-(function (workstatus) {
-    workstatus[workstatus["a"] = 1] = "a";
-    workstatus[workstatus["b"] = 2] = "b";
-    workstatus[workstatus["c"] = 3] = "c";
-})(workstatus || (workstatus = {}));
-var employee = [[1, "miss A", true], [2, "miss B", true]];
+/* enum workstatus{
+    a = 1,
+    b,
+    c,
+}
+
+let employee: [number, string, boolean][] = [[1, "miss A", true], [2, "miss B", true]];
 console.log(employee[0]);
-console.log(workstatus.a);
+
+console.log(workstatus.c) */
+var select1 = 0;
+switch (select1) {
+    case 0:
+        console.log("thitipun");
+        break;
+    case 1:
+        console.log("bbb");
+        break;
+    case 2:
+        console.log("ccc");
+        break;
+}
