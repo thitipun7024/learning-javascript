@@ -49,15 +49,29 @@ let employee: [number, string, boolean][] = [[1, "miss A", true], [2, "miss B", 
 console.log(employee[0]);
 
 console.log(workstatus.c) */
-var select1 = 0;
-switch (select1) {
+/* let select1: number = 0;
+switch(select1){
     case 0:
         console.log("thitipun");
         break;
     case 1:
-        console.log("bbb");
+        console.log("bbb")
         break;
     case 2:
         console.log("ccc");
         break;
+} */
+/* // Loop
+for (var i = 0; i < 10; i++ ){
+    if(i <= 10){
+        console.log("true "+ i)
+    }else{
+        console.log("false "+ i)
+    }
+
+} */
+//loop for of
+var foods = ["a", "b", "c"];
+for (var item in foods) {
+    console.log(item);
 }

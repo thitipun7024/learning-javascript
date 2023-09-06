@@ -55,7 +55,9 @@ let employee: [number, string, boolean][] = [[1, "miss A", true], [2, "miss B", 
 console.log(employee[0]);
 
 console.log(workstatus.c) */
-let select1: number = 0;
+
+
+/* let select1: number = 0;
 switch(select1){
     case 0:
         console.log("thitipun");
@@ -66,4 +68,34 @@ switch(select1){
     case 2:
         console.log("ccc");
         break;
+} */
+
+/* // Loop
+for (var i = 0; i < 10; i++ ){
+    if(i <= 10){
+        console.log("true "+ i)
+    }else{
+        console.log("false "+ i)
+    }
+
+} */
+
+/* //loop for of
+let foods = ["a", "b", "c"];
+
+for(var item in foods){
+    console.log(item);
+} */
+
+/* //loop for in
+let foods = ["a", "b", "c"];
+
+for(var item of foods){
+    console.log(item);
+} */
+
+let foods: any = ["a", "b", "c"];
+
+for(let index in foods){
+    console.log(foods[index]);
 }
