@@ -18,6 +18,52 @@ user1.age = 19
 
 console.log(user1.sayhello()) */
 
-var Myname: string = "";
+/* var Myname: string = "";
 console.log(Myname);
 console.log(typeof(Myname));
+ */
+
+
+/* var mss: string = "Hello wold";
+console.log(mss) */
+
+/* const app_name: string = "my App";
+const app_version: string = "10.2.5";
+const my_arrays: number[] = [1,2,3];
+let my_arrays2: number[] = [1,2,3];
+
+
+function hello(){
+    if(true){
+        var myname: string = "thitipun"
+        var myage: number;
+        var canVote = true;
+        var i; 
+    }
+    console.log(my_arrays);
+}
+
+hello() */
+
+/* enum workstatus{
+    a = 1,
+    b,
+    c,
+}
+
+let employee: [number, string, boolean][] = [[1, "miss A", true], [2, "miss B", true]];
+console.log(employee[0]);
+
+console.log(workstatus.c) */
+let select1: number = 0;
+switch(select1){
+    case 0:
+        console.log("thitipun");
+        break;
+    case 1:
+        console.log("bbb")
+        break;
+    case 2:
+        console.log("ccc");
+        break;
+}
